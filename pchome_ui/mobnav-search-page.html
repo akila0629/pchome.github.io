@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PChome24hr購物網站</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./mobnav-search-page.css">
+    <link rel="icon" type="image/x-icon" href="./img/homelogo.png" />
+</head>
+<body>
+    <div id="mob-top" class="container-fluid flex-crl">
+        <div class="back-btn">
+            <a href="#">
+                <link rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                <span class="material-symbols-rounded">
+                    arrow_back_ios
+                </span>
+            </a>
+        </div>
+       
+        <form id="center" class="search-box flex-crl">
+            <div class="search-box-bar flex-crl">
+                <form class="d-flex flex-crl" role="search">
+                    <input class="form-control search-bar" id="tags" type="search" placeholder="輸入想找的商品" aria-label="Search">
+                    <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="search-box-drag">
+                </div>
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="./bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./jquery-ui.js"></script>
+</body>
+<script>
+    $(function () {
+        var terms = [
+            "iphone14 pro max",
+            "三星手機",
+            "三星耳機",
+            "三星平板",
+            "三星手錶",
+            "智能掃地機",
+            "按摩椅",
+            "無印良品",
+            "無線耳機",
+            "無線滑鼠",
+            "無線充電",
+            "無線網卡",
+            "沙發",
+            "床墊",
+            "手機",
+            "手錶",
+            "手帕",
+            "手環",
+            "手電筒",
+            "手套",
+            "手推車",
+            "手把",
+            "折疊手機",
+            "手機架",
+            "手機殼",
+            "手機背帶",
+            "手機掛繩",
+            "手機包",
+            "平板",
+            "平板電腦",
+            "平板鍵盤",
+            "平板保護膜",
+            "平板收納包",
+            "平底鍋",
+            "apple",
+            "apple watch",
+            "apple iphone",
+            "applepencil",
+            "apple tv",
+            "google pixel",
+            "gopro",
+            "google chromecast",
+            "google pixel 7",
+            "google pixel 6",
+            "google pixel 7 pro",
+        ]
+        $('#tags').autocomplete({
+            source: terms
+
+        });
+
+    });
+</script>
+
+</html>

@@ -1,0 +1,44 @@
+.filter-btn span{
+    font-size: 2vw;
+    font-weight: 500;
+    color:#f7473e;
+    background: transparent;
+    padding: 7px;
+    border-radius: 0.8vw;
+    transition: .3s;
+}
+.filter-btn span:hover{
+    transform: scale(1.1);
+    color: white;
+    background: #f7473e;
+}
+.list-sort{
+    position: relative;
+}
+.list-sort::after{
+    position: absolute;
+    top: 125%;
+    content: " ";
+    width: 100%;
+    height: 2px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.093);
+}
+#com-list{
+    padding: 1rem 8%;
+    margin-top: 3vw;
+}
+#filter-box{
+    padding: 0px 8%;
+}
+.com-per-row{
+    margin-bottom: 5vw;
+}
+.com-per-row .col-sm-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.com-per-row .card{
+    width: 90%;
+}

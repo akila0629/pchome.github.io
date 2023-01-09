@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PChome線上購物</title>
+    <link rel="stylesheet" href="./css_plugin/reset.css">
+    <link rel="stylesheet" href="./css_plugin/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css_plugin/bootstrap.css">
+    <link rel="stylesheet" href="./css_plugin/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./css_main/navigation.css">
+    <link rel="stylesheet" href="./css_main/homepage.css">
+    <link rel="stylesheet" href="./css_main/proile.css">
+    <link rel="icon" type="image/x-icon" href="./img/homelogo.png" />
+</head>
+
+<body>
+    <div id="dsk_navigation" class="navigation">
+        <div id="top-nav" class="container-fluid navbar-top flex-crl">
+            <div class="left-fun">
+                <ul class="flex-crl">
+                    <li><a href="#">商城</a></li>
+                    <li><a href="#" class="topnav-txt_seg">綜合服務</a></li>
+                    <li><a href="#">品牌旗艦</a></li>
+                </ul>
+            </div>
+            <div class="right-fun">
+                <ul class="flex-crl">
+                    <li>
+                        <a href="#" class="flex-crl">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                help
+                            </span>
+                            <span class="t-nav-rfun-ex">客服中心</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="language-box flex-crl">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            </span>
+                            <select aria-label="切換顯示語言" class="language">
+                                <option value="af">Afrikaans</option>
+                                <option value="cs">Čeština</option>
+                                <option value="da">Dansk</option>
+                                <option value="de">Deutsch</option>
+                                <option value="el">Ελληνικά</option>
+                                <option value="en">English</option>
+                                <option value="en-gb">English (UK)</option>
+                                <option value="es">Español (España)</option>
+                                <option value="es-la">Español</option>
+                                <option value="fi">Suomi</option>
+                                <option value="fr">Français</option>
+                                <option value="id">Bahasa Indonesia</option>
+                                <option value="it">Italiano</option>
+                                <option value="ja">日本語</option>
+                                <option value="ko">한국어</option>
+                                <option value="ms">Bahasa Melayu</option>
+                                <option value="nb">Norsk</option>
+                                <option value="nl">Nederlands</option>
+                                <option value="pl">Polski</option>
+                                <option value="pt-br">Português (Brasil)</option>
+                                <option value="pt">Português (Portugal)</option>
+                                <option value="ru">Русский</option>
+                                <option value="sv">Svenska</option>
+                                <option value="th">ภาษาไทย</option>
+                                <option value="tl">Filipino</option>
+                                <option value="tr">Türkçe</option>
+                                <option value="zh-cn">中文(简体)</option>
+                                <option value="zh-tw">中文(台灣)</option>
+                                <option value="bn">বাংলা</option>
+                                <option value="gu">ગુજરાતી</option>
+                                <option value="hi">हिन्दी</option>
+                                <option value="hr">Hrvatski</option>
+                                <option value="hu">Magyar</option>
+                                <option value="kn">ಕನ್ನಡ</option>
+                                <option value="ml">മലയാളം</option>
+                                <option value="mr">मराठी</option>
+                                <option value="ne">नेपाली</option>
+                                <option value="pa">ਪੰਜਾਬੀ</option>
+                                <option value="si">සිංහල</option>
+                                <option value="sk">Slovenčina</option>
+                                <option value="ta">தமிழ்</option>
+                                <option value="te">తెలుగు</option>
+                                <option value="vi">Tiếng Việt</option>
+                                <option value="zh-hk">中文(香港)</option>
+                                <option value="bg">Български</option>
+                                <option value="fr-ca">Français (Canada)</option>
+                                <option value="ro">Română</option>
+                                <option value="sr">Српски</option>
+                                <option value="uk">Українська</option>
+                            </select>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex-crl">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="t-nav-rfun-ex">設定</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex-crl">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                login
+                            </span>
+                            <span class="t-nav-rfun-ex">登入/註冊</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+        <nav class="navbar">
+            <div class="container-fluid flex-crl">
+                <div id="start" class="flex-crl">
+                    <div class="side-menu">
+                        <button class="side-btn btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                            <i class="fa-solid fa-bars btn-sidemenu"></i>
+                        </button>
+    
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <img src="./img/sidelogo.png" />
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="side-list">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    3C產品
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">筆電</a></li>
+                                                        <li><a href="#">桌機</a></li>
+                                                        <li><a href="#">筆電</a></li>
+                                                        <li><a href="#">商用電腦</a></li>
+                                                        <li><a href="#">DIY電腦</a></li>
+                                                        <li><a href="#">螢幕</a></li>
+                                                        <li><a href="#">機殼</a></li>
+                                                        <li><a href="#">路由機</a></li>
+                                                        <li><a href="#">網路儲存伺服器</a></li>
+                                                        <li><a href="#">SSD</a></li>
+                                                        <li><a href="#">內接硬碟</a></li>
+                                                        <li><a href="#">CPU</a></li>
+                                                        <li><a href="#">記憶體</a></li>
+                                                        <li><a href="#">主機板</a></li>
+                                                        <li><a href="#">顯卡</a></li>
+                                                        <li><a href="#">UPS</a></li>
+                                                        <li><a href="#">電源供應器</a></li>
+                                                        <li><a href="#">記憶卡</a></li>
+                                                        <li><a href="#">隨身碟</a></li>
+                                                        <li><a href="#">切換器</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    電腦周邊
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">滑鼠</a></li>
+                                                        <li><a href="#">鍵盤</a></li>
+                                                        <li><a href="#">喇叭</a></li>
+                                                        <li><a href="#">耳機/麥克風</a></li>
+                                                        <li><a href="#">線材</a></li>
+                                                        <li><a href="#">延長線</a></li>
+                                                        <li><a href="#">USBHUB/周邊</a></li>
+                                                        <li><a href="#">電競椅</a></li>
+                                                        <li><a href="#">辦公椅</a></li>
+                                                        <li><a href="#">充電/電池</a></li>
+                                                        <li><a href="#">手寫/繪圖板</a></li>
+                                                        <li><a href="#">電腦軟體</a></li>
+                                                        <li><a href="#">下載/點數</a></li>
+                                                        <li><a href="#">辦公設備</a></li>
+                                                        <li><a href="#">營業設備</a></li>
+                                                        <li><a href="#">印表機</a></li>
+                                                        <li><a href="#">墨水匣/標籤帶</a></li>
+                                                        <li><a href="#">碳粉匣</a></li>
+                                                        <li><a href="#">紙類</a></li>
+                                                        <li><a href="#">商用列印</a></li>
+                                                        <li><a href="#">筆電周邊/配件</a></li>
+                                                        <li><a href="#">光碟片/機</a></li>
+                                                        <li><a href="#">閱讀器</a></li>
+                                                        <li><a href="#">電腦/商務包</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    家電用品
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">液晶電視</a></li>
+                                                        <li><a href="#">洗/乾衣機</a></li>
+                                                        <li><a href="#">冰箱</a></li>
+                                                        <li><a href="#">除濕機</a></li>
+                                                        <li><a href="#">清淨機</a></li>
+                                                        <li><a href="#">冷暖空調</a></li>
+                                                        <li><a href="#">投影機</a></li>
+                                                        <li><a href="#">影音/劇院</a></li>
+                                                        <li><a href="#">吸塵器</a></li>
+                                                        <li><a href="#">掃地機</a></li>
+                                                        <li><a href="#">美容護髮</a></li>
+                                                        <li><a href="#">按摩舒壓</a></li>
+                                                        <li><a href="#">食物調理</a></li>
+                                                        <li><a href="#">料理電器</a></li>
+                                                        <li><a href="#">電子鍋/電鍋</a></li>
+                                                        <li><a href="#">烤箱/微波爐</a></li>
+                                                        <li><a href="#">洗/烘碗</a></li>
+                                                        <li><a href="#">潔牙/健康</a></li>
+                                                        <li><a href="#">電鬍刀</a></li>
+                                                        <li><a href="#">咖啡機</a></li>
+                                                        <li><a href="#">電暖器</a></li>
+                                                        <li><a href="#">生活家電</a></li>
+                                                        <li><a href="#">冷熱飲水</a></li>
+                                                        <li><a href="#">廚衛三機</a></li>
+                                                        <li><a href="#">音響</a></li>
+                                                        <li><a href="#">電風扇</a></li>
+                                                        <li><a href="#">通訊/辦公</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingfour">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapsefour"
+                                                    aria-expanded="false" aria-controls="flush-collapsefour">
+                                                    食品/飲品
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">蔬果甜點</a></li>
+                                                        <li><a href="#">生鮮</a></li>
+                                                        <li><a href="#">冷凍</a></li>
+                                                        <li><a href="#">熟食</a></li>
+                                                        <li><a href="#">飲料</a></li>
+                                                        <li><a href="#">礦泉水</a></li>
+                                                        <li><a href="#">零食</a></li>
+                                                        <li><a href="#">團購</a></li>
+                                                        <li><a href="#">沖泡</a></li>
+                                                        <li><a href="#">咖啡</a></li>
+                                                        <li><a href="#">麥片</a></li>
+                                                        <li><a href="#">茶葉</a></li>
+                                                        <li><a href="#">奶粉</a></li>
+                                                        <li><a href="#">米/食材</a></li>
+                                                        <li><a href="#">速食麵</a></li>
+                                                        <li><a href="#">油品</a></li>
+                                                        <li><a href="#">罐頭</a></li>
+                                                        <li><a href="#">保健/營養品</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingfive">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapsefive"
+                                                    aria-expanded="false" aria-controls="flush-collapsefive">
+                                                    戶外/運動
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">露營</a></li>
+                                                        <li><a href="#">登山</a></li>
+                                                        <li><a href="#">機車</a></li>
+                                                        <li><a href="#">機/汽百貨</a></li>
+                                                        <li><a href="#">雨具</a></li>
+                                                        <li><a href="#">健身</a></li>
+                                                        <li><a href="#">單車</a></li>
+                                                        <li><a href="#">運動服</a></li>
+                                                        <li><a href="#">運動鞋</a></li>
+                                                        <li><a href="#">智慧錶</a></li>
+                                                        <li><a href="#">軍品</a></li>
+                                                        <li><a href="#">貓/狗食</a></li>
+                                                        <li><a href="#">貓砂/用品</a></li>
+                                                        <li><a href="#">小動物</a></li>
+                                                        <li><a href="#">機能服</a></li>
+                                                        <li><a href="#">機能鞋</a></li>
+                                                        <li><a href="#">球/護具</a></li>
+                                                        <li><a href="#">按摩槍</a></li>
+                                                        <li><a href="#">記錄器</a></li>
+                                                        <li><a href="#">車電</a></li>
+                                                        <li><a href="#">保險套</a></li>
+                                                        <li><a href="#">水上</a></li>
+                                                        <li><a href="#">瑜珈</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingsix">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapsesix"
+                                                    aria-expanded="false" aria-controls="flush-collapsesix">
+                                                    美妝用品
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapsesix" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">專櫃保養</a></li>
+                                                        <li><a href="#">專櫃彩妝</a></li>
+                                                        <li><a href="#">醫美保養</a></li>
+                                                        <li><a href="#">開架保養</a></li>
+                                                        <li><a href="#">日韓美妝</a></li>
+                                                        <li><a href="#">彩妝美甲</a></li>
+                                                        <li><a href="#">沙龍髮品</a></li>
+                                                        <li><a href="#">髮妝造型</a></li>
+                                                        <li><a href="#">香水</a></li>
+                                                        <li><a href="#">手工/香氣皂</a></li>
+                                                        <li><a href="#">香氛美體</a></li>
+                                                        <li><a href="#">精油擴香</a></li>
+                                                        <li><a href="#">婦幼專區</a></li>
+                                                        <li><a href="#">私密保養</a></li>
+                                                        <li><a href="#">草本品牌</a></li>
+                                                        <li><a href="#">男士保養</a></li>
+                                                        <li><a href="#">美材工具</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingsev">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapsesev"
+                                                    aria-expanded="false" aria-controls="flush-collapsesev">
+                                                    服裝配件
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapsesev" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingsev" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">精品</a></li>
+                                                        <li><a href="#">服飾</a></li>
+                                                        <li><a href="#">內著</a></li>
+                                                        <li><a href="#">內衣</a></li>
+                                                        <li><a href="#">睡衣</a></li>
+                                                        <li><a href="#">鞋款</a></li>
+                                                        <li><a href="#">鞋材</a></li>
+                                                        <li><a href="#">襪子</a></li>
+                                                        <li><a href="#">塑身</a></li>
+                                                        <li><a href="#">泳裝</a></li>
+                                                        <li><a href="#">眼鏡</a></li>
+                                                        <li><a href="#">飾品</a></li>
+                                                        <li><a href="#">男包</a></li>
+                                                        <li><a href="#">女包</a></li>
+                                                        <li><a href="#">行李箱</a></li>
+                                                        <li><a href="#">電腦包</a></li>
+                                                        <li><a href="#">旅用品</a></li>
+                                                        <li><a href="#">鐘錶</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingeig">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseeig"
+                                                    aria-expanded="false" aria-controls="flush-collapseeig">
+                                                    生活用品
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseeig" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingeig" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="#">衛生紙/濕紙巾</a></li>
+                                                        <li><a href="#">紙尿褲</a></li>
+                                                        <li><a href="#">衛生棉</a></li>
+                                                        <li><a href="#">洗衣精</a></li>
+                                                        <li><a href="#">家用清潔</a></li>
+                                                        <li><a href="#">洗髮精</a></li>
+                                                        <li><a href="#">口腔清潔</a></li>
+                                                        <li><a href="#">沐浴乳/洗手乳</a></li>
+                                                        <li><a href="#">臉部清潔/防曬</a></li>
+                                                        <li><a href="#">掃除用具</a></li>
+                                                        <li><a href="#">除濕除蟲</a></li>
+                                                        <li><a href="#">防護抗菌</a></li>
+                                                        <li><a href="#">醫療口罩</a></li>
+                                                        <li><a href="#">醫療保健</a></li>
+                                                        <li><a href="#">天然有機</a></li>
+                                                        <li><a href="#">箱購日用品</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="navbar-brand" href="./homepage.html"><img src="./img/logo.png"></a>
+                </div>
+                <form id="center" class="search-box flex-crl">
+                    <div class="search-box-bar flex-crl">
+                        <form class="d-flex flex-crl" role="search">
+                            <input class="form-control search-bar" id="tags" type="search" placeholder="輸入想找的商品"
+                                aria-label="Search">
+                            <button class="btn btn-search" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </form>
+                <div id="end" class="nav-functions flex-crl">
+                    <div class="shoppingcart nav-fun-btn">
+                        <a href="#">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                shopping_cart
+                            </span>
+                        </a>
+                    </div>
+                    <div class="favoritel nav-fun-btn">
+                        <a href="#">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                favorite
+                            </span>
+                        </a>
+                    </div>
+                    <div class="notifications nav-fun-btn">
+                        <a href="#">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                notifications
+                            </span>
+                        </a>
+                    </div>
+                    <div class="profile nav-fun-btn">
+                        <a href="./profile.html">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                person
+                                <div class="profile-menu">
+                                    <div class="profile-opt">
+                                        <ul>
+                                            <li>
+                                                <a href="./profile.html">會員中心</a>
+                                            </li>
+                                            <li>
+                                                <a href="./profile-orderlist.html">購買訂單</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">折價專區</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">登出</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="mob_navigation" class="navigation">
+        <nav class="navbar">
+            <div class="container-fluid flex-crl">
+                <div id="start" class="flex-crl">
+                    <a class="navbar-brand" href="#"><img src="./img/homelogo.png"></a>
+                </div>
+                <form id="center" class="search-box flex-crl">
+                    <div class="search-box-bar flex-crl">
+                        <form class="d-flex flex-crl" role="search">
+                            <input class="form-control search-bar" id="tags" type="search" placeholder="搜尋商品" aria-label="Search">
+                            <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </form>
+                <div id="end" class="nav-functions flex-crl">
+                    <div class="shoppingcart">
+                        <a href="#">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                shopping_cart
+                            </span>
+                        </a>
+                    </div>
+                    <div class="shoppingcart">
+                        <a href="#">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-rounded">
+                                notifications
+                            </span>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+        </nav>
+    </div>
+    <div id="mob-functions" class="container-fluid flex-crl">
+        <div class="bot-fun flex-crl">
+            <div class="sortmenu flex-crl">
+                <a class="flex-crl" href="#">
+                    <link rel="stylesheet"
+                        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                        <span class="material-symbols-rounded">
+                            menu
+                        </span>
+                    <div class="fun-txt">分類</div>
+                </a>
+            </div>
+            <div class="love flex-crl">
+                <a class="flex-crl" href="#">
+                    <link rel="stylesheet"
+                        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                         <span class="material-symbols-rounded">
+                         favorite
+                         </span>
+                    <div class="fun-txt">我的收藏</div>
+                </a>
+            </div>
+            <div class="home flex-crl">
+                <a class="flex-crl" href="#">
+                    <link rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                    <span class="material-symbols-rounded">
+                        local_mall
+                    </span>
+                    <div class="fun-txt">商城</div> 
+                </a>
+            </div>
+            <div class="profile flex-crl">
+                <a class="flex-crl" href="#">
+                    <link rel="stylesheet"
+                        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                    <span class="material-symbols-rounded">
+                        person
+                    </span>
+                    <div class="fun-txt">會員中心</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <header id="dsk-prf-ed">
+        <div class="container-fluid profile-all">
+            <div class="row content">
+                <div class="col-sm-2 profile-menu-box">
+                    <div class="head-sticker">
+                        <img src="./img/logo -line.png">
+                    </div>
+                    <div class="user-name">ntuavcd11010</div>
+                    <h6>台藝妹</h6>
+                    <button class="switch-btn">切換帳號 / 登出</button>
+                    <div class="profile-sort sort-wrap">
+                        <a href="/profile.html" class="sort-active">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                            會員中心
+                        </a>
+                        <div class="profile-sort-usermenu align-items-center">
+                            <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-p1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-p1"
+                                    type="button" role="tab" aria-controls="v-pills-p1" aria-selected="true">個人檔案</button>
+                                <button class="nav-link" id="v-pills-p2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-p2" type="button"
+                                    role="tab" aria-controls="v-pills-p2" aria-selected="false">信用卡</button>
+                                <button class="nav-link" id="v-pills-p3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-p3" type="button"
+                                    role="tab" aria-controls="v-pills-3" aria-selected="false">收貨地址</button>
+                                <button class="nav-link" id="v-pills-p4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-p4" type="button"
+                                    role="tab" aria-controls="v-pills-p4" aria-selected="false">品牌會員</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="odlist-sort sort-wrap">
+                        <a href="profile-orderlist.html">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+                            <span class="material-symbols-outlined">
+                                list_alt
+                            </span>
+                            購買訂單
+                        </a>
+                    </div>
+                    <div class="coup-sort sort-wrap">
+                        <a href="#">
+                            <link rel="stylesheet"
+                                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+                            <span class="material-symbols-outlined">
+                                sell
+                            </span>
+                            折價專區
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-10 tab-content profile-menu-page" id="v-pills-tabContent">
+                    <div class="tab-pane flex-crl show active fade" id="v-pills-p1" role="tabpanel"
+                        aria-labelledby="v-pills-p1-tab">
+                       <div class="user-card">
+                            <div class="user-imf-wrap">
+                                <div class="imf-bar d-flex">
+                                    <div class="imf-title">
+                                        <div class="title-txt">
+                                            帳號
+                                        </div>
+                                    </div>
+                                    <div class="imf-content">
+                                        <div class="content-txt">
+                                            ntuavcd11010
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-imf-wrap">
+                                <div class="imf-bar d-flex">
+                                    <div class="imf-title">
+                                        <div class="title-txt">
+                                            姓名
+                                        </div>
+                                    </div>
+                                    <div class="imf-content">
+                                        <div class="content-txt">
+                                            <input class="imf-input" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-imf-wrap">
+                                <div class="imf-bar d-flex">
+                                    <div class="imf-title">
+                                        <div class="title-txt">
+                                            E-mail
+                                        </div>
+                                    </div>
+                                    <div class="imf-content">
+                                        <div class="content-txt">
+                                            <input class="imf-input" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-imf-wrap">
+                                <div class="imf-bar d-flex">
+                                    <div class="imf-title">
+                                        <div class="title-txt">
+                                            聯絡信箱
+                                        </div>
+                                    </div>
+                                    <div class="imf-content">
+                                        <div class="content-txt">
+                                            <input class="imf-input" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-imf-wrap">
+                                <div class="imf-bar d-flex">
+                                    <div class="imf-title">
+                                        <div class="title-txt">
+                                            身分證字號
+                                        </div>
+                                    </div>
+                                    <div class="imf-content">
+                                        <div class="content-txt">
+                                            T12******8
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-imf-wrap">
+                                <div class="imf-bar d-flex">
+                                    <div class="imf-title">
+                                        <div class="title-txt">
+                                            地址
+                                        </div>
+                                    </div>
+                                    <div class="imf-content">
+                                        <div class="content-txt">
+                                            <input id="zip" class="imf-input add-num" type="text" placeholder="郵遞區號由系統輸入">
+                                            <select id="city">
+                                                <option value="" selected="">請選擇縣市</option>
+                                                <option value="0">基隆市</option>
+                                                <option value="1">臺北市</option>
+                                                <option value="2">新北市</option>
+                                                <option value="3">桃園市</option>
+                                                <option value="4">新竹市</option>
+                                                <option value="5">新竹縣</option>
+                                                <option value="6">苗栗縣</option>
+                                                <option value="7">臺中市</option>
+                                                <option value="8">彰化縣</option>
+                                                <option value="9">南投縣</option>
+                                                <option value="10">雲林縣</option>
+                                                <option value="11">嘉義市</option>
+                                                <option value="12">嘉義縣</option>
+                                                <option value="13">臺南市</option>
+                                                <option value="14">高雄市</option>
+                                                <option value="15">屏東縣</option>
+                                                <option value="16">臺東縣</option>
+                                                <option value="17">花蓮縣</option>
+                                                <option value="18">宜蘭縣</option>
+                                                <option value="19">澎湖縣</option>
+                                                <option value="20">金門縣</option>
+                                                <option value="21">連江縣</option>
+                                            </select>
+                                            <select id="region" class="address-region" onclick="ZIP()">
+                                                <option value="" selected="selected">請選擇鄉鎮市區</option>
+                                                <option value="900">屏東市</option>
+                                                <option value="901">三地門鄉</option>
+                                                <option value="902">霧臺鄉</option>
+                                                <option value="903">瑪家鄉</option>
+                                                <option value="904">九如鄉</option>
+                                                <option value="905">里港鄉</option>
+                                                <option value="906">高樹鄉</option>
+                                                <option value="907">鹽埔鄉</option>
+                                                <option value="908">長治鄉</option>
+                                                <option value="909">麟洛鄉</option>
+                                                <option value="911">竹田鄉</option>
+                                                <option value="912">內埔鄉</option>
+                                                <option value="913">萬丹鄉</option>
+                                                <option value="920">潮州鎮</option>
+                                                <option value="921">泰武鄉</option>
+                                                <option value="922">來義鄉</option>
+                                                <option value="923">萬巒鄉</option>
+                                                <option value="924">崁頂鄉</option>
+                                                <option value="925">新埤鄉</option>
+                                                <option value="926">南州鄉</option>
+                                                <option value="927">林邊鄉</option>
+                                                <option value="928">東港鎮</option>
+                                                <option value="929">琉球鄉</option>
+                                                <option value="931">佳冬鄉</option>
+                                                <option value="932">新園鄉</option>
+                                                <option value="940">枋寮鄉</option>
+                                                <option value="941">枋山鄉</option>
+                                                <option value="942">春日鄉</option>
+                                                <option value="943">獅子鄉</option>
+                                                <option value="944">車城鄉</option>
+                                                <option value="945">牡丹鄉</option>
+                                                <option value="946">恆春鎮</option>
+                                                <option value="947">滿州鄉</option>
+                                            </select>
+                                            <br>
+                                            <input class="add-input" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-imf-wrap">
+                                <div class="imf-bar d-flex">
+                                    <div class="imf-title">
+                                        <div class="title-txt">
+                                            生日
+                                        </div>
+                                    </div>
+                                    <div class="imf-content">
+                                        <div class="content-txt">
+                                            <select id="year">
+                                                <option value="">請選擇</option>
+                                                <option value="1922">1922</option>
+                                                <option value="1923">1923</option>
+                                                <option value="1924">1924</option>
+                                                <option value="1925">1925</option>
+                                                <option value="1926">1926</option>
+                                                <option value="1927">1927</option>
+                                                <option value="1928">1928</option>
+                                                <option value="1929">1929</option>
+                                                <option value="1930">1930</option>
+                                                <option value="1931">1931</option>
+                                                <option value="1932">1932</option>
+                                                <option value="1933">1933</option>
+                                                <option value="1934">1934</option>
+                                                <option value="1935">1935</option>
+                                                <option value="1936">1936</option>
+                                                <option value="1937">1937</option>
+                                                <option value="1938">1938</option>
+                                                <option value="1939">1939</option>
+                                                <option value="1940">1940</option>
+                                                <option value="1941">1941</option>
+                                                <option value="1942">1942</option>
+                                                <option value="1943">1943</option>
+                                                <option value="1944">1944</option>
+                                                <option value="1945">1945</option>
+                                                <option value="1946">1946</option>
+                                                <option value="1947">1947</option>
+                                                <option value="1948">1948</option>
+                                                <option value="1949">1949</option>
+                                                <option value="1950">1950</option>
+                                                <option value="1951">1951</option>
+                                                <option value="1952">1952</option>
+                                                <option value="1953">1953</option>
+                                                <option value="1954">1954</option>
+                                                <option value="1955">1955</option>
+                                                <option value="1956">1956</option>
+                                                <option value="1957">1957</option>
+                                                <option value="1958">1958</option>
+                                                <option value="1959">1959</option>
+                                                <option value="1960">1960</option>
+                                                <option value="1961">1961</option>
+                                                <option value="1962">1962</option>
+                                                <option value="1963">1963</option>
+                                                <option value="1964">1964</option>
+                                                <option value="1965">1965</option>
+                                                <option value="1966">1966</option>
+                                                <option value="1967">1967</option>
+                                                <option value="1968">1968</option>
+                                                <option value="1969">1969</option>
+                                                <option value="1970">1970</option>
+                                                <option value="1971">1971</option>
+                                                <option value="1972">1972</option>
+                                                <option value="1973">1973</option>
+                                                <option value="1974">1974</option>
+                                                <option value="1975">1975</option>
+                                                <option value="1976">1976</option>
+                                                <option value="1977">1977</option>
+                                                <option value="1978">1978</option>
+                                                <option value="1979">1979</option>
+                                                <option value="1980">1980</option>
+                                                <option value="1981">1981</option>
+                                                <option value="1982">1982</option>
+                                                <option value="1983">1983</option>
+                                                <option value="1984">1984</option>
+                                                <option value="1985">1985</option>
+                                                <option value="1986">1986</option>
+                                                <option value="1987">1987</option>
+                                                <option value="1988">1988</option>
+                                                <option value="1989">1989</option>
+                                                <option value="1990">1990</option>
+                                                <option value="1991">1991</option>
+                                                <option value="1992">1992</option>
+                                                <option value="1993">1993</option>
+                                                <option value="1994">1994</option>
+                                                <option value="1995">1995</option>
+                                                <option value="1996">1996</option>
+                                                <option value="1997">1997</option>
+                                                <option value="1998">1998</option>
+                                                <option value="1999">1999</option>
+                                                <option value="2000">2000</option>
+                                                <option value="2001">2001</option>
+                                                <option value="2002">2002</option>
+                                                <option value="2003">2003</option>
+                                                <option value="2004">2004</option>
+                                                <option value="2005">2005</option>
+                                                <option value="2006">2006</option>
+                                                <option value="2007">2007</option>
+                                                <option value="2008">2008</option>
+                                                <option value="2009">2009</option>
+                                                <option value="2010">2010</option>
+                                                <option value="2011">2011</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2017">2017</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                            </select>
+                                            <span>年</span>
+                                            <select id="month">
+                                                <option value="">請選擇</option>
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                            <span>月</span>
+                                            <select id="day">
+                                                <option value="">請選擇</option>
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                            </select>
+                                            <span>日</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="./profile.html">
+                                <button class="save-btn">
+                                    儲存
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-p2" role="tabpanel" aria-labelledby="v-pills-p2-tab">
+                        2
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-p3" role="tabpanel" aria-labelledby="v-pills-p3-tab">
+                        3
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-p4" role="tabpanel" aria-labelledby="v-pills-p4-tab">
+                        4
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </header>
+    <header id="mob-profile">
+        <div class="container-fluid">
+            <div class="row content">
+                <div class="col-sm-6 flex-crl mob-prf-menu">
+                    <div class="head-sticker">
+                        <img src="./img/logo -line.png">
+                    </div>
+                    <div class="prf-txt">
+                        <h6>台藝妹</h6>
+                        <div class="user-name">ntuavcd11010</div>
+                        <button class="switch-btn">切換帳號 / 登出</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm-12">
+                    <div class="prf-card">
+                        <div class="imfor-detail">
+                            <div class="imfor-bar">
+                                <div class="imfor-txt">
+                                    帳號
+                                    <span class="imf">
+                                        ntuavcd11010
+                                    </span>
+                                </div>
+                                <div class="imfor-txt">
+                                    姓名
+                                    <span class="imf">
+                                        台藝妹
+                                    </span>
+                                </div>
+                                <div class="imfor-txt">
+                                    E-mail
+                                    <span class="imf">
+                                        <div class="content-txt">
+                                            <input class="imf-input" type="text">
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="imfor-txt">
+                                    聯絡信箱
+                                    <span class="imf">
+                                        <div class="content-txt">
+                                            <input class="imf-input" type="text">
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="imfor-txt">
+                                    身分證字號
+                                    <span class="imf">
+                                        T12******8
+                                    </span>
+                                </div>
+                                <div class="imfor-txt">
+                                    地址
+                                    <span class="imf">
+                                        <div class="add-wrap content-txt d-flex flex-column align-items-end">
+                                            <select id="city">
+                                                <option value="" selected="">請選擇縣市</option>
+                                                <option value="0">基隆市</option>
+                                                <option value="1">臺北市</option>
+                                                <option value="2">新北市</option>
+                                                <option value="3">桃園市</option>
+                                                <option value="4">新竹市</option>
+                                                <option value="5">新竹縣</option>
+                                                <option value="6">苗栗縣</option>
+                                                <option value="7">臺中市</option>
+                                                <option value="8">彰化縣</option>
+                                                <option value="9">南投縣</option>
+                                                <option value="10">雲林縣</option>
+                                                <option value="11">嘉義市</option>
+                                                <option value="12">嘉義縣</option>
+                                                <option value="13">臺南市</option>
+                                                <option value="14">高雄市</option>
+                                                <option value="15">屏東縣</option>
+                                                <option value="16">臺東縣</option>
+                                                <option value="17">花蓮縣</option>
+                                                <option value="18">宜蘭縣</option>
+                                                <option value="19">澎湖縣</option>
+                                                <option value="20">金門縣</option>
+                                                <option value="21">連江縣</option>
+                                            </select>
+                                            <select id="region" class="address-region" onclick="ZIP()">
+                                                <option value="" selected="selected">請選擇鄉鎮市區</option>
+                                                <option value="900">屏東市</option>
+                                                <option value="901">三地門鄉</option>
+                                                <option value="902">霧臺鄉</option>
+                                                <option value="903">瑪家鄉</option>
+                                                <option value="904">九如鄉</option>
+                                                <option value="905">里港鄉</option>
+                                                <option value="906">高樹鄉</option>
+                                                <option value="907">鹽埔鄉</option>
+                                                <option value="908">長治鄉</option>
+                                                <option value="909">麟洛鄉</option>
+                                                <option value="911">竹田鄉</option>
+                                                <option value="912">內埔鄉</option>
+                                                <option value="913">萬丹鄉</option>
+                                                <option value="920">潮州鎮</option>
+                                                <option value="921">泰武鄉</option>
+                                                <option value="922">來義鄉</option>
+                                                <option value="923">萬巒鄉</option>
+                                                <option value="924">崁頂鄉</option>
+                                                <option value="925">新埤鄉</option>
+                                                <option value="926">南州鄉</option>
+                                                <option value="927">林邊鄉</option>
+                                                <option value="928">東港鎮</option>
+                                                <option value="929">琉球鄉</option>
+                                                <option value="931">佳冬鄉</option>
+                                                <option value="932">新園鄉</option>
+                                                <option value="940">枋寮鄉</option>
+                                                <option value="941">枋山鄉</option>
+                                                <option value="942">春日鄉</option>
+                                                <option value="943">獅子鄉</option>
+                                                <option value="944">車城鄉</option>
+                                                <option value="945">牡丹鄉</option>
+                                                <option value="946">恆春鎮</option>
+                                                <option value="947">滿州鄉</option>
+                                            </select>
+                                            <input class="add-input" type="text">
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="imfor-txt">
+                                    生日
+                                    <span class="imf">
+                                        <input type="date">
+                                    </span>
+                                </div>
+                                <div class="imfor-txt last-btn">
+                                    <button class="imf-btn"><a href="./mob-profilepage.html">儲存</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<footer id="dsk-ft">
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-9">
+                <div class="footer-txt-content flex-crl">
+                    <div class="footer-txt flex-crl flex-column">
+                        <h4>關於我們</h4>
+                        <ul>
+                            <li><a href="#">榮耀時刻</a></li>
+                            <li><a href="#">大事記</a></li>
+                            <li><a href="#">人才招募</a></li>
+                            <li><a href="#">隱私權聲明</a></li>
+                            <li><a href="#">服務條款</a></li>
+                            <li><a href="#">商品專櫃總覽</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-txt flex-crl flex-column">
+                        <h4>顧客權益</h4>
+                        <ul>
+                            <li><a href="#">聯絡我們</a></li>
+                            <li><a href="#">常見Q&A</a></li>
+                            <li><a href="#">防詐騙宣導</a></li>
+                            <li><a href="#">退換貨說明</a></li>
+                            <li><a href="#">24h到貨說明</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-txt flex-crl flex-column">
+                        <h4>其他服務</h4>
+                        <ul>
+                            <li><a href="#">PChome</a></li>
+                            <li><a href="#">書店</a></li>
+                            <li><a href="#">比比昂代購</a></li>
+                            <li><a href="#">全球購物</a></li>
+                            <li><a href="#">旅遊</a></li>
+                            <li><a href="#">MiTCH 日系服飾</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-txt flex-crl flex-column">
+                        <h4>企業合作</h4>
+                        <ul>
+                            <li><a href="#">招商專區</a></li>
+                            <li><a href="#">媒體聯繫</a></li>
+                            <li><a href="#">比比昂代購</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-icon flex-crl">
+                    <a href="#"><img src="./img/sidelogo.png"></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-line"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-3 flex-crl flex-column align-items-end">
+                <div class="qr-wrap flex-crl flex-column">
+                    <div class="qr-code">
+                        <img src="./img/qrcode.png">
+                    </div>
+                    <div class="appversion flex-crl">
+                        <a href="#">
+                            <h5>電腦版</h5>
+                        </a>
+                        <a href="#">
+                            <h5>手機版</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-12">
+                <div class="last flex-crl">
+                    <p>106 台北市大安區敦化南路二段105號15樓 / 02-2326-1460</p>
+                    <p>本公司不會以此電話號碼撥打給您，如有來電顯示此號碼，請勿理會</p>
+                </div>
+                <br><br>
+                <p class="copyright">網路家庭國際資訊股份有限公司 版權所有 轉載必究 PChome and PChome Online are trademarks of PChome Online
+                    Inc.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer id="mob-ft">
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-12">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                關於我們
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><a href="#">榮耀時刻</a></li>
+                                    <li><a href="#">大事記</a></li>
+                                    <li><a href="#">人才招募</a></li>
+                                    <li><a href="#">隱私權聲明</a></li>
+                                    <li><a href="#">服務條款</a></li>
+                                    <li><a href="#">商品專櫃總覽</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                顧客權益
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><a href="#">聯絡我們</a></li>
+                                    <li><a href="#">常見Q&A</a></li>
+                                    <li><a href="#">防詐騙宣導</a></li>
+                                    <li><a href="#">退換貨說明</a></li>
+                                    <li><a href="#">24h到貨說明</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                其他服務
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><a href="#">PChome</a></li>
+                                    <li><a href="#">書店</a></li>
+                                    <li><a href="#">比比昂代購</a></li>
+                                    <li><a href="#">全球購物</a></li>
+                                    <li><a href="#">旅遊</a></li>
+                                    <li><a href="#">MiTCH 日系服飾</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                企業合作
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingfour">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><a href="#">招商專區</a></li>
+                                    <li><a href="#">媒體聯繫</a></li>
+                                    <li><a href="#">比比昂代購</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-icon flex-crl">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-line"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-12">
+                <div class="dl-wrap flex-crl">
+                    <div class="logo-ft">
+                        <a href="#"><img src="./img/sidelogo.png"></a>
+                    </div>
+                    <div class="dl-txt">
+                        <a href="#">下載手機APP</a>
+                    </div>
+                </div>
+                <div class="last">
+                    <p>106 台北市大安區敦化南路二段105號15樓 <br>電話：02-2326-1460</p>
+                    <br>
+                    <p>本公司不會以此電話號碼撥打給您，如有來電顯示此號碼，請勿理會</p>
+                </div>
+                <br><br>
+                <p class="copyright">網路家庭國際資訊股份有限公司 版權所有 轉載必究 <br> PChome and PChome Online are trademarks of PChome
+                    Online
+                    Inc.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+
+
+<!-- 作者：南极一块修炼千年的大冰块 
+链接：https://juejin.cn/post/6974018969690734628
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+-->
+</html>
