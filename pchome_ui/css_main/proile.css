@@ -304,7 +304,7 @@ ul,li,div,span{
 }
 .imfor-txt{
     color: rgba(0, 0, 0, 0.607);
-    font-size: 12px;
+    font-size: 1vw;
     display: flex;
     margin-bottom: 1vw;
     align-items: center;
@@ -647,6 +647,9 @@ ul,li,div,span{
     color: #f65a4f;
 }
 @media (max-width:830px) {
+    .imfor-txt{
+    font-size: 14px;
+    }
     .nav-pills .nav-link.active,
         .nav-pills .show>.nav-link,
         .nav-link{
